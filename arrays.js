@@ -1,9 +1,9 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-["hersheys", ...chocolateBars]
+["hersheys", ...chocolateBars];
 
 chocolateBars.push("hersheys");
 
-[...chocolateBars, "hersheys"]
+[...chocolateBars, "hersheys"];
 
 chocolateBars.unshift("hersheys");
