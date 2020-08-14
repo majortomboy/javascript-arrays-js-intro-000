@@ -6,17 +6,17 @@ function addElementToBeginningOfArray(chocolateBars, chocolate){
 }
 addElementToBeginningOfArray();
 
-function destructivelyAddElementToBeginningOfArray(){
-  return chocolateBars.unshift();
+function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolate){
+  return chocolateBars.unshift(chocolate);
 }
-destructivelyAddElementToBeginningOfArray("hershey");
+destructivelyAddElementToBeginningOfArray();
 
-function addElementToEndOfArray(){
-  return [...chocolateBars, "foo"];
+function addElementToEndOfArray(chocolateBars, chocolate){
+  return [...chocolateBars, chocolate];
 }
 addElementToEndOfArray();
 
-function destructivelyAddElementToEndOfArray(){
+function destructivelyAddElementToEndOfArray(chocolateBars, chocolate){
   return chocolateBars.unshift();
 }
-destructivelyAddElementToEndOfArray(1);
+destructivelyAddElementToEndOfArray();
