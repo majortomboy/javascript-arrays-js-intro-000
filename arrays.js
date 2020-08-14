@@ -18,8 +18,5 @@ function addElementToEndOfArray(){
 
 function destructivelyAddElementToEndOfArray(){
   chocolateBars.unshift("hersheys");
+  return chocolateBars
 }
-
-[...chocolateBars, "hersheys"];
-
-chocolateBars.unshift("hersheys");
