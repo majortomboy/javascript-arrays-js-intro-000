@@ -9,7 +9,6 @@ addElementToBeginningOfArray();
 function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolate){
   return chocolateBars.unshift(chocolate);
 }
-destructivelyAddElementToBeginningOfArray();
 
 function addElementToEndOfArray(chocolateBars, chocolate){
   return [...chocolateBars, chocolate];
@@ -19,4 +18,3 @@ addElementToEndOfArray();
 function destructivelyAddElementToEndOfArray(chocolateBars, chocolate){
   return chocolateBars.shift(chocolate);
 }
-destructivelyAddElementToEndOfArray();
