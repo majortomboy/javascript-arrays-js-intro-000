@@ -11,9 +11,14 @@ function destructivelyAddElementToBeginningOfArray(){
   return chocolateBars
 }
 
-["hersheys", ...chocolateBars];
+function addElementToEndOfArray(){
+  [...chocolateBars, "hersheys"];
+  return chocolateBars
+}
 
-chocolateBars.push("hersheys");
+function destructivelyAddElementToEndOfArray(){
+  chocolateBars.unshift("hersheys");
+}
 
 [...chocolateBars, "hersheys"];
 
