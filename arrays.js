@@ -4,7 +4,6 @@ var chocolate = "foo"
 function addElementToBeginningOfArray(chocolateBars, chocolate){
   return [chocolate, ...chocolateBars];
 }
-addElementToBeginningOfArray();
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolate){
   return chocolateBars.unshift(chocolate);
@@ -13,7 +12,6 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolate){
 function addElementToEndOfArray(chocolateBars, chocolate){
   return [...chocolateBars, chocolate];
 }
-addElementToEndOfArray();
 
 function destructivelyAddElementToEndOfArray(chocolateBars, chocolate){
   return chocolateBars.shift(chocolate);
