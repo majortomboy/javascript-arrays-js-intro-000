@@ -8,4 +8,3 @@ var chocolateBars = [
 ["hersheys", ...chocolateBars]
 
 chocolateBars.push("hersheys");
-
