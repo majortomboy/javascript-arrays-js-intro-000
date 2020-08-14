@@ -6,15 +6,15 @@ function addElementToBeginningOfArray(chocolateBars, chocolate){
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolate){
-  return chocolateBars.unshift(chocolate);
+  chocolateBars.unshift(chocolate);
+  return chocolateBars
 }
-chocolateBars.unshift(chocolate)
 
 function addElementToEndOfArray(chocolateBars, chocolate){
   return [...chocolateBars, chocolate];
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, chocolate){
-  return chocolateBars.push(chocolate);
+  chocolateBars.push(chocolate);
+  return chocolateBars
 }
-chocolateBars.push(chocolate)
